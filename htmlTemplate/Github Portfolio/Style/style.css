@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+body {
+	background-color: white;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+
+p{
+	font-family: 'open sans';
+	font-size: 14;
+}
+
+
+div
+{
+    border-radius: 15px;
+	background-color: aliceblue;
+	width: 1100px
+    }
+
+
+
+#name 
+{
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	color: #ffffff;
+}
+
+
+
+
+a:hover {
+    font-weight: bold;
+}
+
+.profile{
+    float: left;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+	font-family: 'open sans';
+	font-size: 12px;
+	box-shadow: 0px 1px 10px 1px #808080 ;
+    background-color: white;
+    }
+
+    
+.profile_box
+{
+	float: left;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+	padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+	font-family: 'open sans';
+	font-size: 12px;
+	box-shadow: 0px 1px 10px 1px #808080 ;
+    background-color: white;
+	
+}
+    
+.profile_box_R
+{
+	float: right;
+	width: 75%;
+	background-color: white;
+	padding-top: 20;
+}
+
+.details
+{
+	float: left;
+	width: 90%;
+	background-color: white;
+	text-align: justify;
+   	padding-top: 20;
+	font-size: 14;
+}
+
+.image-container
+{
+	
+}
+
+
+h3
+{
+    text-decoration: none;
+    font-family: 'Open Sans';
+	font-size: 22px;
+}
+
+h4
+{
+    text-decoration: none;
+    font-family: 'Open Sans';
+	font-size: 16;
+}
+
+ul
+{
+    text-decoration: none;
+    font-family: 'Open Sans';
+	font-size: 14;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+	  padding: 5px;
+  }
+
+
+
+
+.chip {
+	display: inline-block;
+	width: 100;
+	Padding-top: 20px;
+	height: 40px;
+	text-align: center;
+	box-shadow: 0px 1px 10px 1px #e6e6e6 ;
+	
+}
+
+.profile_img {
+	width: 20%;
+	float: auto;
+	padding-top: 50;
+	
+}
